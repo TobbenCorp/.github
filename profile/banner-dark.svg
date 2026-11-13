@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
+  <title id="t">TobbenCorp</title>
+  <desc id="d">Ideas que se vuelven marcas. Submarcas: Desarrollo, Diseño y lo que venga.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#171a3a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.5" r="0.45">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#ffffff" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#dots)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#glow)"/>
+
+  <!-- constelación de marcas -->
+  <g transform="translate(1000 160)" font-family="'Segoe UI', 'Inter', Helvetica, Arial, sans-serif">
+    <line x1="0" y1="0" x2="-150" y2="-70" stroke="#60a5fa" stroke-opacity="0.55" stroke-width="2"/>
+    <line x1="0" y1="0" x2="140" y2="-80" stroke="#f472b6" stroke-opacity="0.4" stroke-width="2" stroke-dasharray="6 6"/>
+    <line x1="0" y1="0" x2="110" y2="95" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="3 7"/>
+    <line x1="0" y1="0" x2="-120" y2="95" stroke="#ffffff" stroke-opacity="0.12" stroke-width="2" stroke-dasharray="3 7"/>
+
+    <circle r="46" fill="#11152e" stroke="url(#accent)" stroke-width="3"/>
+    <text y="9" text-anchor="middle" font-size="26" font-weight="700" fill="#f8fafc">TC</text>
+
+    <circle cx="-150" cy="-70" r="30" fill="#0f1a33" stroke="#60a5fa" stroke-width="2.5"/>
+    <text x="-150" y="-63" text-anchor="middle" font-size="20" fill="#93c5fd">&lt;/&gt;</text>
+    <text x="-150" y="-26" text-anchor="middle" font-size="14" fill="#cbd5e1">Desarrollo</text>
+
+    <circle cx="140" cy="-80" r="30" fill="#2a1430" stroke="#f472b6" stroke-width="2.5" stroke-dasharray="5 4"/>
+    <path d="M128 -88 l6 -6 h12 l6 6 l-5 5 v17 h-14 v-17 z" fill="none" stroke="#f9a8d4" stroke-width="2" stroke-linejoin="round" transform="translate(-0 4)"/>
+    <text x="140" y="-36" text-anchor="middle" font-size="14" fill="#cbd5e1">Diseño · pronto</text>
+
+    <circle cx="110" cy="95" r="18" fill="none" stroke="#ffffff" stroke-opacity="0.3" stroke-width="2" stroke-dasharray="3 5"/>
+    <text x="110" y="101" text-anchor="middle" font-size="18" fill="#ffffff" fill-opacity="0.55">+</text>
+    <circle cx="-120" cy="95" r="12" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="2" stroke-dasharray="3 5"/>
+  </g>
+
+  <g font-family="'Segoe UI', 'Inter', Helvetica, Arial, sans-serif">
+    <rect x="72" y="74" width="56" height="6" rx="3" fill="url(#accent)"/>
+    <text x="70" y="146" font-size="64" font-weight="700" fill="#f8fafc" letter-spacing="-1">TobbenCorp</text>
+    <text x="72" y="194" font-size="28" fill="#e2e8f0">Ideas que se vuelven marcas</text>
+    <text x="72" y="248" font-size="18" fill="#94a3b8">Desarrollo · Diseño · y lo que venga</text>
+  </g>
+</svg>
